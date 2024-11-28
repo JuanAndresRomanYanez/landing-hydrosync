@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
             redirect: 'follow'
         };
 
-        fetch("https://example-mailtrap.onrender.com/api/mailtrap/send-mail", requestOptions)
+        fetch("https://backend-mailtrap.onrender.com/api/mailtrap/send-mail", requestOptions)
         .then(response => response.json())
         .then(result => {
             console.log(result);
