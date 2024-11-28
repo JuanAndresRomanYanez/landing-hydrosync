@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var raw = JSON.stringify({
             "fullname": name,
             "from": email,
-            "to": "hidrosoft@support.com.bo",
+            "to": "hydrosync@support.com.bo",
             "subject": "Support",
             "message": message
         });
